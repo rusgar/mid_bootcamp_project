@@ -1,0 +1,14 @@
+Objectives
+Los objetivos principales de ese proyecto son:
+
+Creación de una API
+Definición de endpoints y parámetros
+Conexión con bbdd
+Creación de un Dashboard Streamlit
+Preparación de datos para visualización
+Parametrización de las visualizaciones
+Conexión de servicios
+Dashboard debe recibir los datos de la API
+Adicional:
+Data Cleaning/Wrangling
+Data Enrichment (API, Webscraping)
