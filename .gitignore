@@ -1,4 +1,5 @@
 .DS_Store
 .env
 data / .env
+streamlit/.env
 .ipynb_checkpoints
