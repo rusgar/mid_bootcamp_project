@@ -1,3 +1,3 @@
 from flask import Flask
 
-app = Flask("prueba")
+app = Flask("Api_Euro")
