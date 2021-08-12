@@ -18,25 +18,4 @@ def read_mongo():
     return json_response(list(mongo_read("core","euro",q)))
 
 
-# Función controladora
-# @app.route("/")
-# @handle_error
-# def ejemplo():
-#     alumno = {
-#         "name":"edu"
-#     }
-#     return json_response(alumno)
 
-
-# @app.route("/saludo")
-# @handle_error
-# def saludo_fn():
-#     print("terminal")
-#     print(request.args)
-#     name = request.args.get("name", "~~~")
-#     surname = request.args.get("surname", "~~~")
-#     # raise ValueError("Esto no es correcto")
-#     return {
-#         "name":"EMOJI / " + name,
-#         "surname":surname,
-#     }
