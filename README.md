@@ -34,7 +34,7 @@ _Python_
 
 
 GitHub:
-* **Eduardo Rus** - *Data analyst* - [Rusgar](https://github.com/rusgar)
+* **Eduardo Rus** - *Estudiante de Core Code School* - [Rusgar](https://github.com/rusgar)
 
 
 LinkedIn:
