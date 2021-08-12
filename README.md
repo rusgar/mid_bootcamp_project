@@ -15,6 +15,24 @@ Creacion de las carpetas con los database, git y jupyternotebook
 Conocimientos de Python, Git, Streamlit,Jupyter, Mongo
 
 ### Instalación 🔧
+**Api**
+Creacion de un entorno virtual :
+Paso 1 :pip install virtualenv (Instalar virtualenv)
+Paso 2 : virtualenv env (Crear entorno virtual)
+Paso 3 : virtualenv -p ruta/interprete/python env ( Crear entorno virtual especificando el intérprete)
+Paso 4: source env/bin/activate (Activar el entorno virtual)
+Paso 5: deactivate (Salir del entorno)
+
+**Pip Install**
+Instalar un paquete/librería (por ejemplo, flask):
+
+**Lista**
+pip list
+
+**Agrupar**
+pip freeze > requirements.txt
+
+
 
 
 
