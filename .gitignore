@@ -2,4 +2,5 @@
 .env
 data / .env
 streamlit/.env
+src/.env
 .ipynb_checkpoints
