@@ -21,7 +21,7 @@ https://www.kaggle.com/mcarujo/euro-cup-2020
 
 ### Pre-requisitos 📋
 
-Conocimientos de Python, Git, Streamlit,Jupyter, Mongo
+Conocimientos de _Python_ ,_Git_, _Streamlit_,_Jupyter_, _Mongo_
 
 ### Instalación 🔧
 **Api**
@@ -66,14 +66,24 @@ pip freeze > requirements.txt
 
 
 
-## Despliegue 📦
+## Despliegue y Lenguajes 📦
 
+<p align="left">
+ <a href="https://git-scm.com/"><img src="https://git-scm.com/images/logo@2x.png" width="100" height="50"> </a>
+ <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" height="50"/>
+ <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="50" height="50"/> </a>
+<a href="https://streamlit.io/"><img src="https://gitlab.com/uploads/-/system/project/avatar/20476870/streamlit.png?width=64" width="50" height="50"> </a>
+<a href="https://jupyter.org/"><img src="https://jupyter.org/assets/main-logo.svg" width="50" height="50"> </a>
+<a href="https://www.postman.com/"><img src="https://res.cloudinary.com/postman/image/upload/t_team_logo/v1/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8" width="50" height="50"> </a>
+ </p>
 
 
 
 ## Construido con 🛠️
 
-_Python_
+_Python_ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" height="50"/>
+  
+-Jupiter-Notebook_ <img src="https://jupyter.org/assets/main-logo.svg" width="50" height="50">
 
 ## Autor
 
