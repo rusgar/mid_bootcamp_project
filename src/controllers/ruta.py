@@ -7,7 +7,7 @@ from utils.handle_error import handle_error
 
 
 
-@app.get("/read")
+@app.get("/Paises")
 @handle_error
 def read_mongo():
     q= cast_types(**dict(request.args))
