@@ -26,32 +26,34 @@
 import  streamlit as st
 import plotly_express as px
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
 
 st.title("Informacion de la EURO 2020")
 
 st.sidebar.subheader("Visualizacion")
 
-uploaded_file = st.sidebar.file_uploader(
+carga_datos = st.sidebar.file_uploader(
             label = "Solo necesitas un archivo correcto",
             type =['csv','xlsx'] )
 
 
 global df
-if uploaded_file is not None:
-    print(uploaded_file)
+if carga_datos is not None:
+    print(carga_datos)
     print("hola")
     try:
-        df = pd.read_csv(uploaded_file)
+        df = pd.read_csv(carga_datos)
     except Exception as e:
         print(e)
-        df = pd.read_excel(uploaded_file)
+        df = pd.read_excel(carga_datos)
 
 
-global numeric_columns
+global numero_columnas
 try:    
     st.write(df)
-    numeric_columns = list(df.select_dtypes(["float","int"]).columns)
+    numero_columnas = list(df.select_dtypes(["float","int"]).columns)
 except Exception as e:
     print(e)
     st.write ("Solo necesitas un archivo correcto")
@@ -67,9 +69,10 @@ chart_select = st.sidebar.selectbox(
 if chart_select == "Scatterplots":
     st.sidebar.subheader("Scatterplots settings")
     try:
-         x_values = st.sidebar.selectbox("x axis", options=numeric_columns)
-         y_values = st.sidebar.selectbox("y axis", options=numeric_columns)
+         x_values = st.sidebar.selectbox("x axis", options=numero_columnas)
+         y_values = st.sidebar.selectbox("y axis", options=numero_columnas)
          plot = px.scatter(data_frame=df, x=x_values, y=y_values)
          st.plotly_chart(plot)
     except Exception as e:
         print(e)
+
