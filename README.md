@@ -3,7 +3,7 @@
 Proyecto donde crearemos una API para servir datos de una bbdd que crearás. Deberás diseñar la API, definir los puntos finales y sus parámetros,
 Escribir las funciones que ejecutaran lo necesario para devolver la respuesta esperada. (Las API deben devolver un objeto JSON).
 
-<img src="https://github.com/rusgar/mid_bootcamp_project/blob/master/img/euro2020.png" alt=""/>
+<img src="https://github.com/rusgar/TuRobot-ProyectoLila/blob/master/src/assets/logos/Robot.jpeg" alt=""/>
 
 ## Comenzando 🚀
 
